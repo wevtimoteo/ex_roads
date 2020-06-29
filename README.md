@@ -2,7 +2,7 @@
 
 Elixir wrapper for Google Roads API based in [sntran/ex_maps](https://github.com/sntran/ex_maps)
 
-[![Build Status](https://img.shields.io/travis/kmonline/ex_roads/master.svg)](https://travis-ci.org/kmonline/ex_roads)
+![Elixir CI](https://github.com/wevtimoteo/ex_roads/workflows/Elixir%20CI/badge.svg?branch=master)
 [![Hex Version](https://img.shields.io/hexpm/v/google_roads.svg)](https://hex.pm/packages/google_roads)
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
