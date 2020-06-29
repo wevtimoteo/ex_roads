@@ -21,11 +21,17 @@ Elixir wrapper for Google Roads API based in [sntran/ex_maps](https://github.com
 You'll need a [Google API key](https://console.developers.google.com) with
 all relevant APIs (see above) enabled. Add your key to the environment as specified above.
 
+Install dependencies:
+
+```
+mix deps.get
+```
+
 Then run tests:
 
-`mix deps.get test`
-
-`mix test`
+```
+mix test
+```
 
 ### Setup credentials
 
@@ -35,6 +41,8 @@ In your `config/config.exs`:
 config :google_roads,
   api_key: "your_api_key"
 ```
+
+Is recommended to create a `config/prod.exs` or even set an environment variable for `GOOGLE_ROADS_API_KEY`.
 
 ## Installation
 
